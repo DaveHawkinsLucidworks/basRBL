@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Basis Technology License -->
+<BTLicense>
+  <generator>jasons</generator>
+  <customer>LucidWorks</customer>
+  <orderid>18411</orderid>
+  <expiration>Dec 30, 2021</expiration>
+    <license>
+         <module>RLP</module>
+              <language>Arabic</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>05BC9371454B078C1CFB4C66114260DC3B7948BB565E30E9D46D9506FD31DEF9E08CCCA9F7C019F07E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Chinese</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>8D8A715B5203A99514D47DC6561108153B7948BB565E30E90BEFA96420CAB10487F9486C0C6C2F657E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Czech</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological</function>
+            <license_key>6BF4E3C5C425AAAFC527F010E5B3F3583B7948BB565E30E91DE4F73FD2C6DD1147202D5200D95540B85593808196DE7AD20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Danish</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological</function>
+            <license_key>F46AC5B9CB26D6F5C8D7A18D200B01663B7948BB565E30E925E2A58D26A9927347EB78DF17ACD58665A42907D9E3C5EF1A9AC98C769100B61E61F533218BA527927B4491851991C12D9B55D7F70556C0</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Dari</language>
+          <function>Named Entity</function>
+            <license_key>628857DE064F619EC0207F58EDED5A8E3B7948BB565E30E97CD7E3DFCBF4F351653BFF1D9FE0C553B2484DCF6068A43E7D25E4A5D4ACBE434BAC7BB37B76F95B71230075CFF2070B066535E792D6B0B4</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Dutch</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>1A08E1ABFDC19A3C6725DE4BB601CDA73B7948BB565E30E94F41DA18C10BF4340ADA78E4773DCB027E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>English</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>BBA17D357BB033EC5FF7C6592C3C89603B7948BB565E30E9C2D2944CD9C6A4F1037B8A9EEE095FFE7E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>English_upper_case</language>
+          <function>Named Entity</function>
+            <license_key>89121C429F69983C0F96AE9249461D713B7948BB565E30E9C2D2944CD9C6A4F144EE85E53021D8B0ED85329D2EBA5D161A9AC98C769100B61E61F533218BA527927B4491851991C12D9B55D7F70556C0</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Finnish</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological</function>
+            <license_key>7F2821227BB817363EA350ED2A26CC6E3B7948BB565E30E9FB1A215EEE2B9DD30C290B65A597CEE365A42907D9E3C5EF1A9AC98C769100B61E61F533218BA527927B4491851991C12D9B55D7F70556C0</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>French</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>B70BD2D1D207EA4301CAD4062A8D359A3B7948BB565E30E9FB1A215EEE2B9DD3E08CCCA9F7C019F07E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>German</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>52A0732BADB0C9DED0CC6B38D6AFFDF33B7948BB565E30E925E2A58D26A9927365ABDC4281CC768B7E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Greek</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological</function>
+            <license_key>D6E2D75F972C3D5737A609F062917CDF3B7948BB565E30E9C2D2944CD9C6A4F10ADA78E4773DCB02B85593808196DE7AD20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Hebrew</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>44E7BBDD6DDCA0D6EE8675DD5F508F303B7948BB565E30E94F44D87BE72634DDA7ADAAA1D805C8B40487413BF3F45A321A9AC98C769100B61E61F533218BA527927B4491851991C12D9B55D7F70556C0</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Hungarian</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>8949FD44EF0FEA225BE9AA518823076B3B7948BB565E30E94F44D87BE72634DD4B9B1C630B6C4ED07E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Italian</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>9815ABDEDEAD696763AE638A31DFFE2B3B7948BB565E30E9730C5284937E732F0DD9A0AEC1B0078A7E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Japanese</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>47221E68E439DB96F69ACE0EA51082D53B7948BB565E30E96A78B90077ED3EEE3E2B57BB3147D06E7E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Korean</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>8470D07FC53417C4A3D932C11AAB0C5C3B7948BB565E30E945B0BA47C06DF76000302BC6E6317CFB7E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Norwegian</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological</function>
+            <license_key>C10E5FC4EADA4DB8A680FF5B91BD87643B7948BB565E30E94F41DA18C10BF434A07B29FE163E524865A42907D9E3C5EF1A9AC98C769100B61E61F533218BA527927B4491851991C12D9B55D7F70556C0</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Norwegian (Bokmal)</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological</function>
+            <license_key>0AC1756C40566A340C0D1FE614A92C9F3B7948BB565E30E94F41DA18C10BF4342C2877759437F04965A42907D9E3C5EF1A9AC98C769100B61E61F533218BA527927B4491851991C12D9B55D7F70556C0</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Norwegian (Nynorsk)</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological</function>
+            <license_key>B77CA874D99287ADBB824469977323E53B7948BB565E30E94F41DA18C10BF4347EE374417A1D03BA65A42907D9E3C5EF1A9AC98C769100B61E61F533218BA527927B4491851991C12D9B55D7F70556C0</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Persian</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>719DEA1873C9CC0728F26315D72C9C653B7948BB565E30E9FB1A215EEE2B9DD33E2B57BB3147D06E7E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Polish</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological</function>
+            <license_key>C791920D6FFF37ED15953930290468903B7948BB565E30E97CD7E3DFCBF4F3510ADA78E4773DCB02B85593808196DE7AD20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Portuguese</language>
+          <function>Sentiment,Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>685F4BD2B2CDB79085BC514E06CB85893B7948BB565E30E97CD7E3DFCBF4F3510DD9A0AEC1B0078A7E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Pushto</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>C107AB8DE6846255FB5511AE01057C9B3B7948BB565E30E97CD7E3DFCBF4F35136F7BB4C4E2A867E0487413BF3F45A321A9AC98C769100B61E61F533218BA527927B4491851991C12D9B55D7F70556C0</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Romanian</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological</function>
+            <license_key>CB83ACF04984433B588D3D76CEA0A5DF3B7948BB565E30E92D60C411013CD06FF854BFC4A255087665A42907D9E3C5EF1A9AC98C769100B61E61F533218BA527927B4491851991C12D9B55D7F70556C0</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Russian</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>CBEF5241B233DA653A886C036E85D2663B7948BB565E30E92D60C411013CD06F4B9B1C630B6C4ED07E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Spanish</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>54ECB5A7D590C1947B209DB952F5A69F3B7948BB565E30E9C2D2944CD9C6A4F147202D5200D955407E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Swedish</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>6D8500195F7EFE9F6F17DE3CFBCEAD873B7948BB565E30E93DB5AF466AE616F8AE5CB5E49094399B0487413BF3F45A321A9AC98C769100B61E61F533218BA527927B4491851991C12D9B55D7F70556C0</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Thai</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological</function>
+            <license_key>31F8494E1B8C3DD37F36578E8131A6233B7948BB565E30E96157C4DEB3A807B0BAA8D00A41A5E33F65A42907D9E3C5EF1A9AC98C769100B61E61F533218BA527927B4491851991C12D9B55D7F70556C0</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Turkish</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological</function>
+            <license_key>38324AF2427DC420BEAB0B8481D97A5A3B7948BB565E30E96157C4DEB3A807B0C9F77C42D71E045765A42907D9E3C5EF1A9AC98C769100B61E61F533218BA527927B4491851991C12D9B55D7F70556C0</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Urdu</language>
+          <function>Tokenizer,Base Noun,Part of Speech,Sentence,Morphological,Named Entity</function>
+            <license_key>86861DD1C3E5308F134E2E625963F3B63B7948BB565E30E9CE0B965EA68AC668E08CCCA9F7C019F07E3097961269BCA4D20806BC9A0C23BD7F5308686946959EF695DFEB844ED6B79C393E37E348B77D</license_key>
+      </license>
+    <license>
+         <module>RLP</module>
+              <language>Vietnamese</language>
+          <function>Named Entity</function>
+            <license_key>232AC749EB5A7B7C3BF013030F38B2263B7948BB565E30E9895C5B5C1D90FF99CD3C03DDA3BE6F7CB2484DCF6068A43E7D25E4A5D4ACBE434BAC7BB37B76F95B71230075CFF2070B066535E792D6B0B4</license_key>
+      </license>
+</BTLicense>
