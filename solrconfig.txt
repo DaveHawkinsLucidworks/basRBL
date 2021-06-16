@@ -1,0 +1,53 @@
+# use the following v2 image and check docker hub for updates
+# https://hub.docker.com/repository/docker/lucidworks/basis-rex 
+  image:
+    repository: lucidworks/basis-rex
+    tag: rex-rbl-solr8.6.3
+
+  additionalVolumes:
+  - name: basistech-license
+    secret:
+      secretName: "basistech-license"
+  - name: basistech-license2
+    secret:
+      secretName: "basistech-license"    
+  - name: basistech
+    emptyDir: {}
+
+  additionalVolumeMounts:
+  - name: basistech
+    mountPath: /rosette/server/roots
+  - name: basistech-license
+    mountPath: /opt/basistech/rex-je/licenses/
+  - name: basistech-license2
+    mountPath: /opt/basistech/solr/licenses/   
+  additionalInitContainers:
+# Required do not change  
+  - name: root-rex-root
+    image: rosette/root-rex-root:7.46.0.c62.2
+    volumeMounts:
+      - name: basistech
+        mountPath: /roots-vol
+# Required do not change         
+  - name: root-rbl
+    image: rosette/root-rbl:7.34.3.c62.2
+    volumeMounts:
+      - name: basistech
+        mountPath: /roots-vol
+# The following entries are language specific images. 
+# See https://hub.docker.com/u/rosette for the language images        
+  - name: root-rex-por
+    image: rosette/root-rex-por:7.46.0.c62.2
+    volumeMounts:
+      - name: basistech
+        mountPath: /roots-vol
+  - name: root-rex-eng
+    image: rosette/root-rex-eng:7.46.0.c62.2
+    volumeMounts:
+      - name: basistech
+        mountPath: /roots-vol
+  - name: root-rex-deu
+    image: rosette/root-rex-deu:7.46.0.c62.2
+    volumeMounts:
+      - name: basistech
+        mountPath: /roots-vol
