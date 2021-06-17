@@ -1,0 +1,90 @@
+version: "3"
+
+services:
+
+  # CAUTION: do not change the mount points inside of the containers
+  #
+  # volume config for the root containers can be updated to use an externally
+  # provisioned volume so it can persist.
+
+  root-ascent-1.3.5.c63.0:
+    image: rosette/root-ascent:1.3.5.c63.0
+    volumes:
+     - rosette-roots-vol:/roots-vol
+  root-rbl-7.39.0.c63.0:
+    image: rosette/root-rbl:7.39.0.c63.0
+    volumes:
+     - rosette-roots-vol:/roots-vol
+  root-rex-eng-7.49.1.c63.0:
+    image: rosette/root-rex-eng:7.49.1.c63.0
+    volumes:
+     - rosette-roots-vol:/roots-vol
+  root-rex-fra-7.49.1.c63.0:
+    image: rosette/root-rex-fra:7.49.1.c63.0
+    volumes:
+     - rosette-roots-vol:/roots-vol
+  root-rex-root-7.49.1.c63.0:
+    image: rosette/root-rex-root:7.49.1.c63.0
+    volumes:
+     - rosette-roots-vol:/roots-vol
+  root-rex-spa-7.49.1.c63.0:
+    image: rosette/root-rex-spa:7.49.1.c63.0
+    volumes:
+     - rosette-roots-vol:/roots-vol
+  root-rli-7.23.2.c63.0:
+    image: rosette/root-rli:7.23.2.c63.0
+    volumes:
+     - rosette-roots-vol:/roots-vol
+
+
+  rosette-server:
+    image: rosette/server-enterprise:1.19.0
+    depends_on:
+     - root-ascent-1.3.5.c63.0
+     - root-rbl-7.39.0.c63.0
+     - root-rex-eng-7.49.1.c63.0
+     - root-rex-fra-7.49.1.c63.0
+     - root-rex-root-7.49.1.c63.0
+     - root-rex-spa-7.49.1.c63.0
+     - root-rli-7.23.2.c63.0
+
+    volumes:
+      - rosette-roots-vol:/rosette/server/roots:ro
+      - ${ROSAPI_LICENSE_PATH}:/rosette/server/launcher/config/rosapi/rosette-license.xml:ro
+    ports:
+      - "8181:8181"
+#    environment:
+#      - ROSETTE_JVM_MAX_HEAP=4  # max Java heap size in GB, default is 4, must be >=4; to run all endpoints the recommended minimum is 16
+#      - ROSETTE_WORKER_THREADS=2  # number of worker threads, default is 2, must be >=1
+#      - ROSETTE_PRE_WARM=false  # pre-warm the server on startup, default is false, valid values are true|false
+#      - ROSETTE_DOC_HOST_PORT=localhost:8181  # hostname should be accessible on the network, port value should match mapped port above
+#      - ROSETTE_USAGE_TRACKER_ROOT= # optional directory to log metering data if not using the ./config directory, if set and metering is disabled it will be enabled.
+    command:
+      - /bin/bash
+      - -c
+      - |
+          while ! [[ \
+           true \
+          && -f /rosette/server/roots/.root-ascent-1.3.5.c63.0.unpacked \
+          && -f /rosette/server/roots/.root-rbl-7.39.0.c63.0.unpacked \
+          && -f /rosette/server/roots/.root-rex-eng-7.49.1.c63.0.unpacked \
+          && -f /rosette/server/roots/.root-rex-fra-7.49.1.c63.0.unpacked \
+          && -f /rosette/server/roots/.root-rex-root-7.49.1.c63.0.unpacked \
+          && -f /rosette/server/roots/.root-rex-spa-7.49.1.c63.0.unpacked \
+          && -f /rosette/server/roots/.root-rli-7.23.2.c63.0.unpacked \
+          ]] ; do
+            echo "waiting for roots to be unpacked ..."
+            sleep 10
+          done
+          bash /rosette/server/bin/update_config.sh && /rosette/server/bin/launch.sh console
+
+volumes:
+  # if a local volume is not desirable, change this to suit your needs
+  rosette-roots-vol:
+    labels:
+      com.rosette.name: "rosette-roots-volume"
+      com.rosette.type: "volume"
+      com.rosette.distribution: "Rosette Server"
+      com.rosette.distribution.version: "1.19.0"
+      maintainer: "release@rosette.com"
+      vendor: "Basis Technology"
