@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Basis Technology License -->
+<BTLicense>
+  <generator>peterdebie</generator>
+  <customer>European Central Bank</customer>
+  <orderid>18467</orderid>
+  <expiration>Jun 11, 2021</expiration>
+    <license>
+         <module>Rosette</module>
+              <language>English</language>
+          <function>sentiment,entities,language,tokens</function>
+            <license_key>FA6569447D9F457306876407B39DA179E943DA9FF2702CC47364ECFB09840610B97FB242A99C7035934C6C6BA7CFA166DC1B47C267429CBC1E61F533218BA527ABB48682F50FC4423CE3CB1ABE5DEAF6766D9D48F0658AA6</license_key>
+      </license>
+    <license>
+         <module>Rosette</module>
+              <language>French</language>
+          <function>sentiment,entities,language,tokens</function>
+            <license_key>BC21E5DD37CD84E1840D31316157E72AE943DA9FF2702CC4532BB2943259DAF55D1A6E1F34FB5ECA934C6C6BA7CFA166DC1B47C267429CBC1E61F533218BA527ABB48682F50FC4423CE3CB1ABE5DEAF6766D9D48F0658AA6</license_key>
+      </license>
+    <license>
+         <module>Rosette</module>
+              <language>Spanish</language>
+          <function>sentiment,entities,language,tokens</function>
+            <license_key>641C4D92D1B64D74A6C0CE5B618E8769E943DA9FF2702CC47364ECFB0984061027D340BB826E10A4934C6C6BA7CFA166DC1B47C267429CBC1E61F533218BA527ABB48682F50FC4423CE3CB1ABE5DEAF6766D9D48F0658AA6</license_key>
+      </license>
+</BTLicense>
